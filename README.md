@@ -20,11 +20,13 @@ Display Device: Based on the noise patterns in the environment, generates a shor
 ### Components
 
 - **Sensing Device**
+![Sensing Device](images/sensing.jpg)
   - Microphone: INMP441
   - Bluetooth/Wi-Fi Module: ESP32
   - Battery: 18650 lithium battery LIR18650
 
 - **Display Device**
+![Display Device](images/display.jpg)
   - MCU: Arduino Uno or Raspberry Pi 4
   - Bluetooth/Wi-Fi Module: ESP32
   - Battery: 18650 lithium battery LIR18650
@@ -32,4 +34,5 @@ Display Device: Based on the noise patterns in the environment, generates a shor
   - LED: Standard 5mm LEDs or 5050 SMD LEDs.
 
 ### System Architecture Diagram
+![System Architecture](images/diagram.jpg)
 
