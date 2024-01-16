@@ -33,4 +33,3 @@ Display Device: Based on the noise patterns in the environment, generates a shor
 
 ### System Architecture Diagram
 
-(在这里插入系统架构图的图片)
