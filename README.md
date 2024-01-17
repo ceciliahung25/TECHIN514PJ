@@ -32,6 +32,8 @@ Display Device: Based on the noise patterns in the environment, generates a shor
   - Battery: 18650 lithium battery LIR18650
   - Speaker: PAM8403
   - LED: Standard 5mm LEDs or 5050 SMD LEDs.
+  - Stepper Motor: JST X27
+  - Button: KSMC6 Tactile Switches 6mm Top Push
 
 ### System Architecture Diagram
 ![System Architecture](images/diagram.jpg)
