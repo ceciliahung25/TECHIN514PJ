@@ -2,11 +2,11 @@
 
 ## Cecilia Hung (2320001)
 
-### Separate Environmental Noise Detection + Interactive Environmental Music Creation Device
-
 For a detailed view of the power consumption calculations and system profiles, you can view the spreadsheet here:
 [View the Power Consumption Spreadsheet](https://docs.google.com/spreadsheets/d/1GH_dmqcpy9LyMxHUE3kLtBWBAWlxp0ul/edit?usp=sharing&ouid=112464995598441446363&rtpof=true&sd=true)
 This spreadsheet includes all the power metrics used in the project and the estimated days of use for each component.
+
+### Separate Environmental Noise Detection + Interactive Environmental Music Creation Device
 
 Sensing Device: Captures and appropriately filters the ambient noise in the environment, and transmits it to the Display Device. This device can be placed freely in various spaces to trigger the generation of different music by the Display Device.
 
