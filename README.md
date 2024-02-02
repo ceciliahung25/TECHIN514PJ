@@ -31,7 +31,7 @@ Display Device: Based on the noise patterns in the environment, generates a shor
 
 - **Display Device**
 ![Display Device](images/display.jpg)
-  - MCU: Arduino Uno or Raspberry Pi 4
+  - MCU: ESP32
   - Bluetooth/Wi-Fi Module: ESP32
   - Battery: 18650 lithium battery LIR18650
   - Speaker: PAM8403
