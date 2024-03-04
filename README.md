@@ -6,38 +6,34 @@ For a detailed view of the power consumption calculations and system profiles, y
 [View the Power Consumption Spreadsheet](https://docs.google.com/spreadsheets/d/1GH_dmqcpy9LyMxHUE3kLtBWBAWlxp0ul/edit?usp=sharing&ouid=112464995598441446363&rtpof=true&sd=true)
 This spreadsheet includes all the power metrics used in the project and the estimated days of use for each component.
 
-### Separate Environmental Noise Detection + Interactive Environmental Music Creation Device
+### Sensing the Unseen: A Symphony in Silence
 
-Sensing Device: Captures and appropriately filters the ambient noise in the environment, and transmits it to the Display Device. This device can be placed freely in various spaces to trigger the generation of different music by the Display Device.
-
-Display Device: Based on the noise patterns in the environment, generates a short piece of music using a specified algorithm and outputs it.
-
-### Display Device: Illuminator of the Unseen Resonance
-
-- **Primary Design**: Wearable device
-- **Iterated Design**: Portable device
+In the vast tapestry of everyday life, sounds weave invisible threads, creating a symphony often unheard and unseen. "Echoes of Space" is an odyssey into making the imperceptible palpable, visualizing the whispers and roars of our environment, and transforming them into a visual serenade.
 
 ### Sensing Device: Whisperer of the Unheard Symphony
 
-- **Function**: Captures and filters ambient noise, transmits to Display Device. Can be placed in various spaces.
+The Sensing Device is engineered to capture ambient noise with precision and transmit this data for further processing. It serves as the primary data collection unit in diverse settings.
+
+### Display Device: Illuminator of the Unseen Resonance
+
+The Display Device is tasked with receiving acoustic data and rendering it into a visual format. It utilizes a range of components to articulate the nuances of environmental sound.
+
 
 ### Components
 
 - **Sensing Device**
 ![Sensing Device](images/sensing.jpg)
-  - Microphone: INMP441
-  - Bluetooth/Wi-Fi Module: ESP32
-  - Battery: 18650 lithium battery LIR18650
+  - Microcontroller: Seeed Xiao ESP32S3
+  - Interface: Adafruit Tactile Switch Buttons (12mm Square, 6mm Tall)
+
 
 - **Display Device**
 ![Display Device](images/display.jpg)
-  - MCU: ESP32
-  - Bluetooth/Wi-Fi Module: ESP32
-  - Battery: 18650 lithium battery LIR18650
-  - Speaker: PAM8403
-  - LED: Standard 5mm LEDs or 5050 SMD LEDs.
-  - Stepper Motor: JST X27
-  - Button: KSMC6 Tactile Switches 6mm Top Push
+  - Microcontroller: Seeed Xiao ESP32S3
+  - Display: OLED SSD1306
+  - User Interface: Adafruit SPDT Slide Switch
+  - Output Actuator: Stepper Motor (JST X27.168)
+  - Power Source: 3.7V Lipo Battery 1000mAh
 
 ### System Architecture Diagram
 ![System Architecture](images/diagram.jpg)
