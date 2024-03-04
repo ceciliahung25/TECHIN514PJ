@@ -25,7 +25,7 @@ The Display Device is tasked with receiving acoustic data and rendering it into 
 ![Sensing Device](images/sensing.jpg)
   - Microcontroller: Seeed Xiao ESP32S3
   - Microphone: Seeed Xiao ESP32S3 Sense Expansion Board Microphone
-  - Interface: Adafruit Tactile Switch Buttons (12mm Square, 6mm Tall)
+  - Interface: Adafruit Tactile Switch Button (12mm Square, 6mm Tall)
 
 
 - **Display Device**
